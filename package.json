@@ -25,13 +25,10 @@
     "prop-types": "15.6.2",
     "react-bootstrap": "0.31.3",
     "react-dot-fragment": "0.2.7",
-    "react-moment-proptypes": "1.6.0",
-    "react-scripts": "2.1.1"
+    "react-moment-proptypes": "1.6.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
-    "test": "react-scripts test"
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "eslintConfig": {
     "extends": "react-app"
